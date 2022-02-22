@@ -1,0 +1,122 @@
+/* &display=swap */
+@import "null.css";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: GraphikLCG;
+	font-size: 18px;
+	color: #3c3c3c;
+}
+@font-face {
+	font-family: GraphikLCG;
+	src: url("../fonts/GraphikLCG-Regular.woff2") format("wofft2"), url("../fonts/GraphikLCG-Regular.woff") format("woff");
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GraphikLCG;
+	src: url("../fonts/GraphikLCG-Bold.woff2") format("wofft2"), url("../fonts/GraphikLCG-Bold.woff") format("woff");
+	font-weight: 700;
+	font-display: swap;
+}
+
+.main-title {
+	padding-left: 50px;
+	padding-right: 75px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-bottom: 80px;
+}
+
+img {
+	padding: 60px;
+}
+
+.par1 {
+	padding: 60px 100px;
+	overflow: hidden;
+	height: 58px;
+	margin-bottom: 60px;
+}
+
+.par2 span {
+	margin: 50px;
+	padding: 60px;
+}
+
+.par3 {
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+	width: 120px;
+	height: 50px;
+	overflow: visible;
+}
+
+.par4 {
+	margin: 250px;
+}
+
+.par5 {
+	margin: 25%;
+	padding: 15%;
+}
+
+.par6 {
+	margin: 0 0 0 auto;
+	width: 250px;
+}
+
+.par7 span {
+	margin-top: 25px;
+	margin-bottom: 100px;
+	margin-bottom: 150px;
+	margin-right: 150px;
+	width: 150px;
+}
+.par8 {
+	width: 1000px;
+	padding: 50px;
+	height: 20px;
+	margin: 0 0 50px 0;
+	overflow: scroll;
+}
+
+.par9 {
+	height: 200px;
+	width: 200px;
+	margin: 20px 20px 20px 20px;
+	padding: 50px 50px 50px 50px;
+	overflow: auto;
+}
+
+.par10 span {
+	display: block;
+	margin: 50px;
+	padding-bottom: 50px;
+	height: 100px;
+	width: 500px;
+}
+
+.par11 {
+	display: none;
+}
+
+.par12 {
+	margin-top: 10px;
+}
+
+.par13 {
+	max-width: 600px;
+	margin: 50px auto;
+	font-size: 20px;
+	height: 50px;
+	overflow: auto;
+	display: inline;
+}
